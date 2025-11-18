@@ -1,0 +1,39 @@
+.catelouge-grid-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
+}
+
+.card-catelouge-content{
+    background-color: #010101;
+    color: #E9E9EA;
+    border: 1px solid #E9E9EA;
+    padding: 32px;
+}
+
+.card-catelouge-content img{
+    width: 38px;
+    height: 38px;
+}
+.card-catelouge-content h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+.card-catelouge-content p{ 
+    font-weight: 500;
+}
+ 
+.catelouge-2 {
+    margin-top: -36px;
+}
+
+.catelouge-2, .catelouge-3{
+    background-color: #F8FAFB;
+    color: #777980;
+    border: 1px solid #E9E9EA;
+    padding: 32px;
+}
+.catelouge-2 h2, .catelouge-3 h2{
+    color: #1D1F2C; 
+}

@@ -1,0 +1,135 @@
+.lse-container {
+    width: 100%;
+    position: relative;
+    margin-top: -100px;
+    z-index: 10;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color: #ffffff;
+}
+
+.lse-contant {
+    width: 90%;
+    margin: 40px auto;
+    padding-top: 40px;
+}
+
+.lse-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lse-subtitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.lse-subtitle p {
+    font-size: large;
+    color: #777980;
+    margin-bottom: 10px;
+}
+
+.lse-subtitle div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.lse-subtitle .sound {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.lse-subtitle div .sound-effects {
+    padding: 11px 16px;
+    border: 1px solid #EAEFF2;
+    border-radius: 8px;
+    background-color: #EAEFF2;
+    color: #777980;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.sound-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.sound-card {
+    background-color: #F8FAFB;
+    border: 1px solid #ECEFF3;
+    border-radius: 16px;
+}
+
+.card-player-content {
+    padding: 30px;
+}
+
+.card-player-info {
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    gap: 16px;
+}
+
+.audio-player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEFF2;
+    border-radius: 24px;
+    padding: 8px 12px;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.audio-player-controls img:first-child {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.audio-player-controls img:nth-child(2) {
+    width: 100%;
+    max-width: 180px;
+    height: 32px;
+}
+
+.audio-player-controls img:last-child {
+    width: 64px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.card-actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    border-radius: 16px;
+}
+
+.card-actions div {
+    display: flex;
+    justify-content: center;
+    padding: 16px 32px;
+    background-color: #EAEFF2;
+}
+
+.card-actions img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.card-actions div:first-child {
+    border-bottom-left-radius: 16px;
+}
+
+.card-actions div:last-child {
+    border-bottom-right-radius: 16px;
+}

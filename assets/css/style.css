@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.saira-condensed {
+    font-family: "Saira Condensed", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Saira Condensed", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+/* common button */
+.common-button {
+    padding: 10px 32px;
+    border-radius: 4px;
+    background-color: #1D1F2C;
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+}
+
+/* .common-button:hover{
+    background-color: #1D1F2C;
+    color: #ffffff;
+} */
+
+/* common text */
+.title {
+    font-size: 56px;
+    font-weight: bold;
+    color: #1D1F2C;
+}
+
+
+/* navbar */
+.nav-container {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding: 20px 0;
+    position: absolute;
+    /* position: fixed; */
+    z-index: 100;
+}
+
+.navbar {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 156px;
+    height: 46px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #080808;
+    padding: 10px 32px;
+    gap: 10px;
+}
+
+.menu li a:hover {
+    background-color: #1D1F2C;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Hamburger */
+.hamburger {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    color: #080808;
+}
+
+/* Tab Responsive */
+@media(max-width: 1024px) {
+    .sound-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .audio-player-controls {
+        gap: 6px
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        position: absolute;
+        top: 86px;
+        left: 0;
+        flex-direction: column;
+        padding: 16px;
+        gap: 16px;
+        border-radius: 16px;
+        display: none;
+        background-color: #ffffff;
+        border: 1px solid #8c1414;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    /* banner */
+    .banner-content {
+        width: 100%;
+        padding: 24px;
+        margin-top: 24px;
+    }
+
+    .banner-content h1 {
+        font-size: 60px;
+    }
+
+    /* latest sound effects */
+    .lse-title {
+        flex-direction: column;
+        gap: 24px
+    }
+
+    .lse-subtitle div {
+        justify-content: flex-start;
+    }
+
+    .sound-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .card-player-content {
+        padding: 10px;
+    }
+
+    .audio-player-controls {
+        gap: 4px
+    }
+
+    .audio-player-controls img:nth-child(2) {
+        max-width: 100px;
+    }
+
+    .audio-player-controls img:last-child {
+        width: 50px;
+    }
+
+    .card-actions div {
+        padding: 10px 4px;
+    }
+
+    /* popular section */
+    .popular-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    /* popular2 */
+    .popular-2-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    /* catelouge */
+    .catelouge-grid-card {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-top: 40px;
+    }
+
+    .catelouge-2 {
+        margin-top: 0px;
+    }
+
+    /* stay connect */
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .highlight,
+    .dark {
+        grid-column: span 2;
+    }
+
+    /* footer */
+    .footer-inner {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 24px 40px;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .desc {
+        width: 100%;
+    }
+
+    .brand h2 {
+        font-size: 32px;
+    }
+
+    .email {
+        font-size: 20px;
+    }
+
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .banner-content h1 {
+        font-size: 48px;
+    }
+
+    /* latest sound effects */
+    .lse-title h1,
+    .title {
+        font-size: 32px;
+    }
+
+    .banner-content button {
+        margin: 40px;
+    }
+
+    .lse-subtitle div {
+        flex-direction: column;
+    }
+
+    .sound-grid {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+
+    .card-player-content {
+        padding: 10px;
+    }
+
+    .audio-player-controls img:nth-child(2) {
+        max-width: 124px;
+    }
+
+    .audio-player-controls img:last-child {
+        width: 54px;
+    }
+
+    .card-actions div {
+        padding: 10px 4px;
+    }
+
+    /* popular section */
+    .pse-subtitle {
+        flex-direction: column;
+        gap: 12px
+    }
+
+    .popular-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .popular-grid .popular-card:first-child,
+    .popular-card:nth-child(6) {
+        grid-column: span 1;
+    }
+
+    /* popular 2 */
+    .popular-2-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    /* catelouge */
+    .catelouge-grid-card {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 40px;
+    }
+
+    .catelouge-2 {
+        margin-top: 0px;
+    }
+
+    /* why choose */
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .highlight,
+    .dark {
+        grid-column: span 1;
+    }
+
+    .heading-box h1 {
+        font-size: 35px;
+    }
+
+    /* stay connect */
+    .msc-banner-container {
+        height: 423px;
+    }
+
+    .stayConnect-content h1 {
+        font-size: 30px;
+    }
+
+    /* footer */
+    .footer {
+        padding-top: 60px;
+    }
+
+    .footer-bottom {
+        padding: 20px 24px 30px;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+    .backdrop {
+        width: 100%;
+        opacity: 0.3;
+    }
+}

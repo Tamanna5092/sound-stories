@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/latest.css">
+    <link rel="stylesheet" href="./assets/css/popular.css">
+    <link rel="stylesheet" href="./assets/css/popular2.css">
+    <link rel="stylesheet" href="./assets/css/catelouge.css">
+    <link rel="stylesheet" href="./assets/css/whychoose.css">
+    <link rel="stylesheet" href="./assets/css/stayconnect.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Profunk Audio</title>
+</head>
+
+<body>
+    <section class="nav-container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./assets/icons/logo.png" alt="">
+            </div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <!-- Hamburger Icon -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <i id="menuIcon" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </section>
+    
+    <!-- Banner Section -->
+    <section class="banner">
+        <!-- Background Video -->
+        <video autoplay loop muted playsinline class="banner-video">
+            <source src="assets/banner.mp4" type="video/mp4">
+        </video>
+        <!-- Text Content -->
+        <div class="banner-content">
+            <h1>Sound Stories</h1>
+            <p>Over 160,000 stunning sound effects (SFX) and over 650 royalty free music tracks free for commercial and
+                non commercial use.</p>
+            <button>Explore </button>
+        </div>
+    </section>
+
+    <!-- latest sound effects-->
+    <section class="lse-container">
+        <div class="lse-contant">
+            <div class="lse-title">
+                <h1 class="title">Latest sound Effects</h1>
+                <div class="lse-subtitle">
+                    <p>Browse professional sound effects recorded by the best in the business</p>
+                    <div>
+                        <div class="sound">
+                            <button class="sound-effects">Sound Effects</button>
+                            <img src="./assets/icons/lse-card-icon/Frame.png" alt="">
+                        </div>
+                        <button class="common-button">All Sound Effects</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sound-grid">
+                <!-- card1 -->
+                <div class="sound-card">
+                    <div class="card-player-content">
+                        <div class="card-player-info">
+                            <img src="./assets/icons/lse-card-icon/soundCard.png" alt="Sound Effect">
+                            <h4>Wood, twig snap in forest, stereo, weaker, smaller</h4>
+                        </div>
+                        <div class="audio-player-controls">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay2.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/playerPlayTime.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/download-04.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/Vector.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/information-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- card2 -->
+                <div class="sound-card">
+                    <div class="card-player-content">
+                        <div class="card-player-info">
+                            <img src="./assets/icons/lse-card-icon/soundCard.png" alt="Sound Effect">
+                            <h4>Wood, twig snap in forest, stereo, weaker, smaller</h4>
+                        </div>
+                        <div class="audio-player-controls">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay2.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/playerPlayTime.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/download-04.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/Vector.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/information-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- card3 -->
+                <div class="sound-card">
+                    <div class="card-player-content">
+                        <div class="card-player-info">
+                            <img src="./assets/icons/lse-card-icon/soundCard.png" alt="Sound Effect">
+                            <h4>Wood, twig snap in forest, stereo, weaker, smaller</h4>
+                        </div>
+                        <div class="audio-player-controls">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay2.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/playerPlayTime.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/download-04.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/Vector.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/information-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- card4 -->
+                <div class="sound-card">
+                    <div class="card-player-content">
+                        <div class="card-player-info">
+                            <img src="./assets/icons/lse-card-icon/soundCard.png" alt="Sound Effect">
+                            <h4>Wood, twig snap in forest, stereo, weaker, smaller</h4>
+                        </div>
+                        <div class="audio-player-controls">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay2.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/playerPlayTime.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/download-04.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/Vector.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/information-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- card5 -->
+                <div class="sound-card">
+                    <div class="card-player-content">
+                        <div class="card-player-info">
+                            <img src="./assets/icons/lse-card-icon/soundCard.png" alt="Sound Effect">
+                            <h4>Wood, twig snap in forest, stereo, weaker, smaller</h4>
+                        </div>
+                        <div class="audio-player-controls">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay2.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/playerPlayTime.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/download-04.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/Vector.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/information-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- card6 -->
+                <div class="sound-card">
+                    <div class="card-player-content">
+                        <div class="card-player-info">
+                            <img src="./assets/icons/lse-card-icon/soundCard.png" alt="Sound Effect">
+                            <h4>Wood, twig snap in forest, stereo, weaker, smaller</h4>
+                        </div>
+                        <div class="audio-player-controls">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay2.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/playerPlayTime.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/download-04.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/Vector.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/information-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- card7 -->
+                <div class="sound-card">
+                    <div class="card-player-content">
+                        <div class="card-player-info">
+                            <img src="./assets/icons/lse-card-icon/soundCard.png" alt="Sound Effect">
+                            <h4>Wood, twig snap in forest, stereo, weaker, smaller</h4>
+                        </div>
+                        <div class="audio-player-controls">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay2.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/playerPlayTime.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/download-04.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/Vector.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/information-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- card8 -->
+                <div class="sound-card">
+                    <div class="card-player-content">
+                        <div class="card-player-info">
+                            <img src="./assets/icons/lse-card-icon/soundCard.png" alt="Sound Effect">
+                            <h4>Wood, twig snap in forest, stereo, weaker, smaller</h4>
+                        </div>
+                        <div class="audio-player-controls">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay2.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/playerPlayTime.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/download-04.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/Vector.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/information-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- card9 -->
+                <div class="sound-card">
+                    <div class="card-player-content">
+                        <div class="card-player-info">
+                            <img src="./assets/icons/lse-card-icon/soundCard.png" alt="Sound Effect">
+                            <h4>Wood, twig snap in forest, stereo, weaker, smaller</h4>
+                        </div>
+                        <div class="audio-player-controls">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay2.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/playerPlayTime.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/download-04.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/Vector.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/information-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- card10 -->
+                <div class="sound-card">
+                    <div class="card-player-content">
+                        <div class="card-player-info">
+                            <img src="./assets/icons/lse-card-icon/soundCard.png" alt="Sound Effect">
+                            <h4>Wood, twig snap in forest, stereo, weaker, smaller</h4>
+                        </div>
+                        <div class="audio-player-controls">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay2.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/playerPlayTime.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/download-04.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/Vector.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/information-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- card11 -->
+                <div class="sound-card">
+                    <div class="card-player-content">
+                        <div class="card-player-info">
+                            <img src="./assets/icons/lse-card-icon/soundCard.png" alt="Sound Effect">
+                            <h4>Wood, twig snap in forest, stereo, weaker, smaller</h4>
+                        </div>
+                        <div class="audio-player-controls">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay2.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/playerPlayTime.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/download-04.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/Vector.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/information-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- card12 -->
+                <div class="sound-card">
+                    <div class="card-player-content">
+                        <div class="card-player-info">
+                            <img src="./assets/icons/lse-card-icon/soundCard.png" alt="Sound Effect">
+                            <h4>Wood, twig snap in forest, stereo, weaker, smaller</h4>
+                        </div>
+                        <div class="audio-player-controls">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/PlayerPlay2.png" alt="">
+                            <img src="./assets/icons/lse-card-icon/playerPlayTime.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/download-04.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/Vector.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lse-card-icon/information-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- popular sound effects -->
+    <section class="pse-container">
+        <div class="pse-content">
+            <div class="pse-title">
+                <h1 class="title">Popular Sound Effect</h1>
+                <div class="pse-subtitle">
+                    <p>Unique sound effects for download. You won’t find them anywhere else.</p>
+                    <button class="common-button">All Sound Categories</button>
+                </div>
+            </div>
+            <div class="popular-grid">
+                <!-- card1 -->
+                <div class="popular-card">
+                    <img src="./assets/icons/popularImg/1.png" alt="Explosion Sound Effects">
+                    <div class="popular-card-text">
+                        <h3>Explosion Sound Effects</h3>
+                        <p>Bombs, missiles small, large & distant</p>
+                    </div>
+                </div>
+                <!-- card2 -->
+                <div class="popular-card">
+                    <img src="./assets/icons/popularImg/2.png" alt="Explosion Sound Effects">
+                    <div class="popular-card-text">
+                        <h3>Explosion Sound Effects</h3>
+                        <p>Bombs, missiles small, large & distant</p>
+                    </div>
+                </div>
+                <!-- card3 -->
+                <div class="popular-card">
+                    <img src="./assets/icons/popularImg/3.png" alt="Explosion Sound Effects">
+                    <div class="popular-card-text">
+                        <h3>Explosion Sound Effects</h3>
+                        <p>Bombs, missiles small, large & distant</p>
+                    </div>
+                </div>
+                <!-- card4 -->
+                <div class="popular-card">
+                    <img src="./assets/icons/popularImg/4.png" alt="Explosion Sound Effects">
+                    <div class="popular-card-text">
+                        <h3>Explosion Sound Effects</h3>
+                        <p>Bombs, missiles small, large & distant</p>
+                    </div>
+                </div>
+                <!-- card5 -->
+                <div class="popular-card">
+                    <img src="./assets/icons/popularImg/5.png" alt="Explosion Sound Effects">
+                    <div class="popular-card-text">
+                        <h3>Explosion Sound Effects</h3>
+                        <p>Bombs, missiles small, large & distant</p>
+                    </div>
+                </div>
+                <!-- card6 -->
+                <div class="popular-card">
+                    <img src="./assets/icons/popularImg/6.png" alt="Explosion Sound Effects">
+                    <div class="popular-card-text">
+                        <h3>Explosion Sound Effects</h3>
+                        <p>Bombs, missiles small, large & distant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- popular sound effects 2 -->
+    <section class="pse-container-2">
+        <div class="popular-title">
+            <h1 class="title">Popular Sound Effect</h1>
+            <p>Unique sound effects for download. You won’t find them anywhere else.</p>
+        </div>
+        <div class="popular-2-grid">
+            <!-- card 1 -->
+            <div class="popular-card-2-contant">
+                <img class="card-hero-image" src="./assets/icons/popularImg2/1.png">
+                <div class="popular-card-2-info">
+                    <div class="popular-2-info">
+                        <h2>Anime Tones</h2>
+                        <div><img src="./assets/icons/popularImg2/1.png" alt="Info Icon"></div>
+                    </div>
+                    <div class="card-text-content">
+                        <p>80 anime tone sound effects to download in both mp3 and wav formats. This dynamic collection
+                            of
+                            classic anime sound effects contains.</p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="popular-card-2-contant">
+                <img class="card-hero-image" src="./assets/icons/popularImg2/2.png">
+                <div class="popular-card-2-info">
+                    <div class="popular-2-info">
+                        <h2>Plasma Core Sampler</h2>
+                        <div><img src="./assets/icons/popularImg2/policy.png" alt="Info Icon"></div>
+                    </div>
+                    <div class="card-text-content">
+                        <p>80 anime tone sound effects to download in both mp3 and wav formats. This dynamic collection
+                            of
+                            classic anime sound effects contains.</p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="popular-card-2-contant">
+                <img class="card-hero-image" src="./assets/icons/popularImg2/3.png">
+                <div class="popular-card-2-info">
+                    <div class="popular-2-info">
+                        <h2>Sci-Fi Ul Tones</h2>
+                        <div><img src="./assets/icons/popularImg2/policy.png" alt="Info Icon"></div>
+                    </div>
+                    <div class="card-text-content">
+                        <p>80 anime tone sound effects to download in both mp3 and wav formats. This dynamic collection
+                            of
+                            classic anime sound effects contains.</p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="popular-card-2-contant">
+                <img class="card-hero-image" src="./assets/icons/popularImg2/4.png">
+                <div class="popular-card-2-info">
+                    <div class="popular-2-info">
+                        <h2>Cellphone Vibrate</h2>
+                        <div><img src="./assets/icons/popularImg2/policy.png" alt="Info Icon"></div>
+                    </div>
+                    <div class="card-text-content">
+                        <p>80 anime tone sound effects to download in both mp3 and wav formats. This dynamic collection
+                            of
+                            classic anime sound effects contains.</p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card 5 -->
+            <div class="popular-card-2-contant">
+                <img class="card-hero-image" src="./assets/icons/popularImg2/5.png">
+                <div class="popular-card-2-info">
+                    <div class="popular-2-info">
+                        <h2>Sci-Fi Computer Tones</h2>
+                        <div><img src="./assets/icons/popularImg2/policy.png" alt="Info Icon"></div>
+                    </div>
+                    <div class="card-text-content">
+                        <p>80 anime tone sound effects to download in both mp3 and wav formats. This dynamic collection
+                            of
+                            classic anime sound effects contains.</p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card 6 -->
+            <div class="popular-card-2-contant">
+                <img class="card-hero-image" src="./assets/icons/popularImg2/6.png">
+                <div class="popular-card-2-info">
+                    <div class="popular-2-info">
+                        <h2>Dark Cinematic Whooshes</h2>
+                        <div><img src="./assets/icons/popularImg2/policy.png" alt="Info Icon"></div>
+                    </div>
+                    <div class="card-text-content">
+                        <p>80 anime tone sound effects to download in both mp3 and wav formats. This dynamic collection
+                            of
+                            classic anime sound effects contains.</p>
+                        <button class="read-more">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- catelouge -->
+    <section class="catelouge-container">
+        <div class="catelouge-content">
+            <div class="popular-title">
+                <h1 class="title">Our Sound Catalogue Advantages</h1>
+                <p>Our sound effects are unique and pro quality.</p>
+            </div>
+            <div class="catelouge-grid-card">
+                <!-- card 1 -->
+                <div class="card-catelouge-content">
+                    <div><img src="./assets/icons/catelouge/elements.png" alt=""></div>
+                    <h2>Professionally Recorded Sounds</h2>
+                    <p>You'll get access to an extensive library of pro level sounds that have been used in some of the
+                        world's most recognisable media.</p>
+                </div>
+                <!-- card 2 -->
+                <div class="card-catelouge-content catelouge-2">
+                    <div><img src="./assets/icons/catelouge/elements(1).png" alt=""></div>
+                    <h2>Safe to use</h2>
+                    <p>All our free sounds and music are safe to use for any non-commercial and commercial use, even for
+                        broadcast. We check every file for quality and we only add content we, or our contributors
+                        recorded themselves.</p>
+                </div>
+                <!-- card 3-->
+                <div class="card-catelouge-content catelouge-3">
+                    <div><img src="./assets/icons/catelouge/elements(2).png" alt=""></div>
+                    <h2>Excellent support</h2>
+                    <p>We’re always here if you need us. Contact anytime, we typically respond within a few hours, often
+                        even faster.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- why choose -->
+    <section class="why-choose-container">
+
+        <div class="heading-box">
+            <h1 class="title">Why Choose Profunk Audio</h1>
+            <p>
+                Our extensive sound effect catalogue delivers sounds & music for every creative field.
+                You’ll find the exact sounds and music you need to deliver a professional result everytime.
+            </p>
+        </div>
+
+        <div class="grid">
+
+            <div class="card highlight">
+                <div class="icon">✔</div>
+                <h3>Sound Designers</h3>
+                <p>Bombs, missiles small, large & distant</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">✔</div>
+                <h3>YouTube</h3>
+                <p>Bombs, missiles small, large & distant</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">✔</div>
+                <h3>Game Developers</h3>
+                <p>Bombs, missiles small, large & distant</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">✔</div>
+                <h3>Podcasts</h3>
+                <p>Bombs, missiles small, large & distant</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">✔</div>
+                <h3>Content Creators</h3>
+                <p>Bombs, missiles small, large & distant</p>
+            </div>
+
+            <div class="card dark">
+                <div class="icon">✔</div>
+                <h3>Composers & Producers</h3>
+                <p>Bombs, missiles small, large & distant</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- stay conncect -->
+    <section class="msc-banner-container">
+        <div class="stayConnect-overlay"></div>
+        <div class="stayConnect-content">
+            <h1 title="">Stay Connected, Stay Inspired</h1>
+            <p>
+                Our growing range of professional royalty free music is free to download
+                and use in your projects and covers a range of genres and moods.
+            </p>
+            <button class="banner-btn">Access Music</button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-bg">
+            <!-- Background image -->
+            <img class="backdrop" src="./assets/icons/Vector.png" alt="PROFUNK AUDIO" />
+
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <div class="brand">
+                        <img src="./assets/icons/footer-logo.png" alt="">
+                    </div>
+                    <p class="desc">
+                        With a growing library of over 160,000 free sound effects
+                        downloads and more than 650 royalty-free music tracks too,
+                        ZapSplat is one of the largest free SFX libraries online. We're
+                        trusted by over 2.6 million creatives who use our sound fx and
+                        music to bring their projects to life.
+                    </p>
+                </div>
+
+                <div class="footer-columns">
+                    <div class="col">
+                        <h4>Quick Link</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h4>Sound Effects Packs</h4>
+                        <ul>
+                            <li><a href="#">Anime Tones</a></li>
+                            <li><a href="#">Sci-Fi UI Tones</a></li>
+                            <li><a href="#">Dark Cinematic Whooshes</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h4>Let's talk</h4>
+
+                        <a class="email" href="mailto:info@profunk.team">info@profunk.team</a>
+
+                        <p class="address">
+                            12/4 Azatutyan ave,<br />
+                            Yerevan, Armenia
+                        </p>
+
+                        <p class="phone">+374 93 64-67-89</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom strip -->
+            <div class="footer-bottom">
+                <p>© 2024 NRK ACCOUNTING. All rights reserved.</p>
+
+                <div class="social">
+                    <p>Social Link:</p>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/24/ffffff/facebook--v1.png" />
+                    </a>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/24/ffffff/linkedin.png" />
+                    </a>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/24/ffffff/x.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
