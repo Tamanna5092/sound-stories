@@ -26,10 +26,10 @@ body {
     border: none;
 }
 
-/* .common-button:hover{
+.common-button:hover{
     background-color: #1D1F2C;
     color: #ffffff;
-} */
+}
 
 /* common text */
 .title {
@@ -116,7 +116,6 @@ body {
         border-radius: 16px;
         display: none;
         background-color: #ffffff;
-        border: 1px solid #8c1414;
     }
 
     .hamburger {
